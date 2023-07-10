@@ -129,10 +129,11 @@ img {
 }
 
 /* instagram section styles */
-#instagram .insta-container{
+#instagram .insta-container {
     width: 80%;
     margin: 0 auto 100px;
 }
+
 #instagram .insta-desc {
     max-width: 500px;
     margin: 0 auto 40px;
@@ -143,13 +144,14 @@ img {
     display: flex;
     justify-content: space-between;
 }
-#instagram .insta-picturs-row img{
+
+#instagram .insta-picturs-row img {
     width: 250px;
     height: 290px;
 }
 
 /* letest deals subscribe section styles */
-#subscribe{
+#subscribe {
     max-width: 80%;
     height: 250px;
     margin: 0 auto 100px;
@@ -161,19 +163,48 @@ img {
     align-items: center;
     justify-content: center;
 }
-#subscribe .subscribe-p{
+
+#subscribe .subscribe-p {
     text-align: center;
     margin-bottom: 30px;
 }
-#subscribe .subscribe-form{
+
+#subscribe .subscribe-form {
     width: 600px;
     display: flex;
     gap: 20px;
 }
-#subscribe .subscribe-form input{
-   width: 80%;
-   font-size: 16px;
-   padding: 0 10px 0 10px;
-   border-radius: 5px;
-   border: none;
+
+#subscribe .subscribe-form input {
+    width: 80%;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* footer section styles */
+#footer {
+    width: 100%;
+    height: 350px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#footer .section-title,
+#footer p,
+#footer em {
+    color: #ccc;
+}
+
+#footer .footer-container {
+    max-width: 550px;
+    text-align: center;
+}
+
+#footer .footer-container p {
+    margin-bottom: 30px;
 }
