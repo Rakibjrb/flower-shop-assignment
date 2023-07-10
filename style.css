@@ -194,6 +194,53 @@ img {
     font-size: 18px;
 }
 
+/* own flower plan */
+#plan{
+    max-width: 80%;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+#plan .customize-btn{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 22px;
+}
+
+#plan .plan-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#plan .plan-box{
+    width: 200px;
+    background: #caa1aa;
+    padding: 30px;
+    text-align: center;
+    color: #D9EFF1;
+    border-radius: 8px;
+    transition: .5s;
+}
+#plan .plan-box:hover{
+    width: 200px;
+    background: #ccc;
+    padding: 30px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+#plan .plan-box img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+#plan .plan-box h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
 /* instagram section styles */
 #instagram .insta-container {
     width: 80%;
