@@ -39,6 +39,7 @@ body {
 
 img {
     width: 200px;
+    height: 264px;
 }
 
 .section-title {
@@ -91,6 +92,44 @@ img {
     bottom: 0;
     right: 100px;
 }
+
+/* our featured section styles */
+#featured{
+    max-width: 80%;
+    margin: 100px auto 0;
+}
+#featured .featured-p{
+    max-width: 450px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+#featured .featured-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+#featured .featured-gallery .gellary-pictures{
+    text-align: center;
+}
+#featured .featured-gallery .gellary-pictures .picture-bg-c1{
+    background: #F2DEE7;
+}
+#featured .featured-gallery .gellary-pictures .picture-bg-c2{
+    background: #D9EFF1;
+}
+#featured .featured-gallery .gellary-pictures .picture-bg-c3{
+    background: #E3EBDB;
+}
+#featured .featured-gallery .gellary-pictures .picture-bg{
+    padding: 90px 60px 0;
+    border-radius: 150px 150px 0 0;
+}
+#featured .featured-gallery .gellary-pictures p{
+    margin-top: 20px;
+}
+
+
+
+
 
 /* hot deal section styles */
 #hot-deal {
