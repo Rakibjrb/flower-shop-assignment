@@ -131,7 +131,7 @@ img {
 /* instagram section styles */
 #instagram .insta-container{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 #instagram .insta-desc {
     max-width: 500px;
@@ -146,4 +146,34 @@ img {
 #instagram .insta-picturs-row img{
     width: 250px;
     height: 290px;
+}
+
+/* letest deals subscribe section styles */
+#subscribe{
+    max-width: 80%;
+    height: 250px;
+    margin: 0 auto 100px;
+    background: url("/assets/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#subscribe .subscribe-p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#subscribe .subscribe-form{
+    width: 600px;
+    display: flex;
+    gap: 20px;
+}
+#subscribe .subscribe-form input{
+   width: 80%;
+   font-size: 16px;
+   padding: 0 10px 0 10px;
+   border-radius: 5px;
+   border: none;
 }
